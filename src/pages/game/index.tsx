@@ -54,203 +54,206 @@ const Game = () => {
                 </div>
             </div>
 
-            <div className='w-12 flex align-items-center justify-content-center'>
-                <div className="flex flex-column gap-4 p-4 bg-red-700 m-1 border-round-xl shadow-3" style={{ width: 'max-content' }}>
-                    {/* Zar 1 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+            <div className='w-12 flex justify-content-center'>
+                <div>
+                    <div className="flex gap-4 p-4 bg-red-700 m-1 border-round-xl shadow-3" style={{ width: 'max-content' }}>
+                        {/* Zar 1 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        
-                    </div>
 
-                    {/* Zar 2 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+                        {/* Zar 2 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                    </div>
 
-                    {/* Zar 3 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+                        {/* Zar 3 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                    </div>
 
-                    {/* Zar 4 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+                        {/* Zar 4 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                    </div>
 
-                    {/* Zar 5 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+                        {/* Zar 5 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                    </div>
 
-                    {/* Zar 6 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="flex flex-column gap-4 p-4 bg-red-700 m-1 border-round-xl shadow-3" style={{ width: 'max-content' }}>
-                    {/* Zar 1 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        
-                    </div>
-
-                    {/* Zar 2 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                    </div>
-
-                    {/* Zar 3 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+                        {/* Zar 6 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
                         </div>
                     </div>
 
-                    {/* Zar 4 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+                    <div className="flex gap-4 p-4 bg-red-700 m-1 border-round-xl shadow-3" style={{ width: 'max-content' }}>
+                        {/* Zar 1 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                    </div>
 
-                    {/* Zar 5 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+                        {/* Zar 2 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center"></div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                    </div>
 
-                    {/* Zar 6 */}
-                    <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+                        {/* Zar 3 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+
+                        {/* Zar 4 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+
+                        {/* Zar 5 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center"></div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
                         </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
-                        </div>
-                        <div className="col-4 flex justify-content-center align-items-center">
-                            <div className="border-2"></div>
+
+                        {/* Zar 6 */}
+                        <div className="grid grid-nogutter w-2rem h-2rem border-2 bg-green-100">
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
+                            <div className="col-4 flex justify-content-center align-items-center">
+                                <div className="border-2"></div>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             
